@@ -3,16 +3,20 @@ class Yin:
 
 class Yang:
 
-    def __del__(self):
+    def __del__ (self):
         print ("Yang destruido")
 
 
 yin = Yin()
 yang = Yang()
-yin_yang = yang
+yin.yang = yang
 
 print(yang)
-print(yang == yin_yang)
-yang.__del__()
-
+print(yang == yin.yang)
+del(yin.yang)
+del(yang)
 print("?")
+
+# El problema que teníamos era que había dos instancias de la clase Yang. Sólo borrábamos una de ellas y por lo tanto la clase
+# Yang todavía existía en la otra instancia. Al terminar el programa se borraba esa segunda instancia y cuando ya no había más 
+# instancias de la clase Yang era cuando se mostraba el mensaje. El problema se arregla borrando las dos instancias de Yang.
