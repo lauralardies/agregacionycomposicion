@@ -13,15 +13,6 @@ casa = Casa([pared_norte, pared_oeste, pared_sur, pared_este])
 
 print(casa.superficie_cristal())
 
-
-class ParedCortina(Pared):
-    def __init__(self, orientacion, superficie):
-        Pared.__init__(self, orientacion)
-        self.__cristal = Cristal(superficie)
-
-    def superficie_cristal(self):
-        return self.__cristal.superficie()
-
 pared_cortina = ParedCortina("SUR", 10)
 
 casa = Casa([pared_norte, pared_oeste, pared_cortina, pared_este])
