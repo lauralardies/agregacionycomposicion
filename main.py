@@ -1,5 +1,9 @@
 from yin import Yin
 from yang import Yang
+from pared import Pared
+from ventana import Ventana
+from casa import Casa
+from cristal import Cristal
 
 # Ejercicio 2
 print("\nEjercicio 2:\n")
@@ -35,6 +39,7 @@ casa = Casa([pared_norte, pared_oeste, pared_sur, pared_este])
 
 print(casa.superficie_cristal())
 
+from pared_cortina import ParedCortina
 
 pared_cortina = ParedCortina("SUR", 10)
 
