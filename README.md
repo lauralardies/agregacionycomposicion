@@ -1,5 +1,8 @@
 # agregacionycomposicion
 
+Mi dirección de GitHub para este repositorio es la siguiente: [GitHub](https://github.com/lauralardies/agregacionycomposicion)
+https://github.com/lauralardies/agregacionycomposicion
+
 Ejercicio 2:
 ```
 class Yin:
