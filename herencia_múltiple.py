@@ -1,9 +1,3 @@
-class Cristal:
-    def __init__(self, superficie):
-        self.__superficie = superficie
-
-    def superficie(self):
-        return self.__superficie
 
 class Pared:
     def __init__(self, orientacion):
@@ -54,6 +48,7 @@ ventana_este = Ventana(pared_este, 1)
 casa = Casa([pared_norte, pared_oeste, pared_sur, pared_este])
 
 print(casa.superficie_cristal())
+
 
 class ParedCortina(Pared):
     def __init__(self, orientacion, superficie):
