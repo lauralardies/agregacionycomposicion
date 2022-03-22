@@ -1,3 +1,6 @@
+from cristal import Cristal
+from cristal import Cristal
+
 class Ventana:
     def __init__(self, pared, superficie):
         self.__pared = pared
