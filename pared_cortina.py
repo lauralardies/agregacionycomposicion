@@ -1,3 +1,6 @@
+from pared import Pared
+from cristal import Cristal
+
 class ParedCortina(Pared):
     def __init__(self, orientacion, superficie):
         Pared.__init__(self, orientacion)
