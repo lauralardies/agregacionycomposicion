@@ -1,3 +1,5 @@
+from yin import Yin
+
 # Ejercicio 2
 print("\nEjercicio 2:\n")
 
