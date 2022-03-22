@@ -1,4 +1,5 @@
 from yin import Yin
+from yang import Yang
 
 # Ejercicio 2
 print("\nEjercicio 2:\n")
