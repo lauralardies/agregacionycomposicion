@@ -1,5 +1,3 @@
-class Yin:
-    pass
 
 class Yang:
 
