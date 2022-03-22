@@ -3,7 +3,6 @@ from yang import Yang
 from pared import Pared
 from ventana import Ventana
 from casa import Casa
-from cristal import Cristal
 
 # Ejercicio 2
 print("\nEjercicio 2:\n")
