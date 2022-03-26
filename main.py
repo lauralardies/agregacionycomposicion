@@ -3,6 +3,19 @@ from yang import Yang
 from pared import Pared
 from ventana import Ventana
 from casa import Casa
+from catastrofe import Empresa
+
+# Ejercicio 1
+print("\nEjercicio 1:\n")
+
+while True:
+    decision = input("¿Quieres crear una catástrofe? [Y]/N: ")
+    decision = decision.capitalize()
+    if decision == "N":
+        break
+    else:
+        inicio = Empresa()
+        catastrofe = inicio.destruccion()
 
 # Ejercicio 2
 print("\nEjercicio 2:\n")
